@@ -1,68 +1,108 @@
-# Zetech C++ Assignments
+# Zetech University C++ Programming Assignments
 
 ## Overview
-This repository contains a series of standalone C++ assignment programs for learning basic programming concepts. Each file is a self-contained C++ exercise covering input/output, decision-making, arithmetic operations, and simple control structures.
+
+This repository contains a collection of C++ programming assignments completed as part of coursework at Zetech University. The assignments focus on fundamental programming concepts, including user input/output, conditional statements, arithmetic operations, decision-making, and problem-solving techniques using C++.
+
+Each program is implemented as a standalone application and demonstrates a specific programming concept or real-world scenario.
+
+---
+
+## Learning Objectives
+
+The assignments in this repository demonstrate:
+
+- Basic C++ syntax and structure
+- User input and output operations
+- Conditional statements (`if`, `if-else`, nested conditions)
+- Arithmetic calculations
+- Decision-making logic
+- Problem-solving techniques
+- Program compilation and execution using GCC/G++
+
+---
 
 ## Repository Structure
-- `library_fine/` and `library_fine.cpp` — Library fine calculator
-- `scholarship/` and `scholarship.cpp` — Scholarship eligibility program
-- `week1_task1_mobile_phone_sales.cpp` — Mobile phone sales calculator
-- `week1_task2_driving_test.cpp` — Driving test assessment program
-- `week2_task1_grading_system.cpp` — Grading system evaluator
-- `week2_task2_admission_decision.cpp` — Admission decision logic
-- `week2_task3_calculator.cpp` — Basic calculator
-- `week3_task1_payroll.cpp` — Payroll calculator
-- `week3_task2_water_billing.cpp` — Water billing calculation
-- `week4_task1_employee_bonus.cpp` — Employee bonus calculator
-- `week4_task2_withdrawal_system.cpp` — Withdrawal system simulation
-- `week4_task3_password_verification.cpp` — Password verification program
-- `week5_hotel_management.cpp` — Simple hotel management application
-- `build/` — build outputs and compiled binaries
 
+<<<<<<< HEAD
 ## Assignment Summaries
+=======
+| File | Description |
+|--------|-------------|
+| `library_fine.cpp` | Library fine calculator |
+| `scholarship.cpp` | Scholarship eligibility evaluator |
+| `week1_task1_mobile_phone_sales.cpp` | Mobile phone sales calculator |
+| `week1_task2_driving_test.cpp` | Driving test assessment program |
+| `week2_task1_grading_system.cpp` | Student grading system |
+| `week2_task2_admission_decision.cpp` | Admission decision evaluator |
+| `week2_task3_calculator.cpp` | Basic arithmetic calculator |
+| `week3_task1_payroll.cpp` | Employee payroll calculator |
+| `week3_task2_water_billing.cpp` | Water billing system |
+| `week4_task1_employee_bonus.cpp` | Employee bonus calculator |
+| `week4_task2_withdrawal_system.cpp` | Bank withdrawal system simulation |
+| `week4_task3_password_verification.cpp` | Password verification program |
+| `week5_hotel_management.cpp` | Hotel management application |
+
+---
+
+
+
+## Assignment Descriptions
+
+>>>>>>> 5585457 (completed week 6 task 1 and task 2)
 ### Library Fine Calculator
-Calculates overdue fines for returned books based on the number of days late. It reads book ID, due date, and return date, then computes the fine according to tiered rates.
+Calculates fines for overdue library books based on the number of days a book is returned late.
 
 ### Scholarship Eligibility Program
-Evaluates a student’s scholarship eligibility using marks and attendance. The program uses nested conditionals to decide between full scholarship, partial scholarship, or no scholarship.
+Determines whether a student qualifies for a scholarship based on academic performance and attendance criteria.
 
-### Mobile Phone Sales
-A task that handles phone sales input, computes totals, and displays relevant sales details.
+### Mobile Phone Sales Calculator
+Processes mobile phone sales information and calculates totals based on user input.
 
-### Driving Test Program
-Assesses driving test results based on criteria such as age, score, or other evaluation metrics.
+### Driving Test Assessment
+Evaluates driving test results and determines pass or fail status according to predefined rules.
 
 ### Grading System
-A grade evaluator that assigns letter grades or pass/fail decisions based on exam marks.
+Assigns grades based on student marks and displays the corresponding performance category.
 
-### Admission Decision
-Determines admission status using academic performance and eligibility rules.
+### Admission Decision Evaluator
+Determines student admission eligibility using academic requirements and decision rules.
 
 ### Basic Calculator
 Performs arithmetic operations such as addition, subtraction, multiplication, and division.
 
 ### Payroll Calculator
-Computes employee pay, including salary and deductions or allowances.
+Calculates employee earnings, deductions, and net salary.
 
-### Water Billing
-Calculates utility bills for water usage based on consumption.
+### Water Billing System
+Computes water bills based on customer consumption levels.
 
 ### Employee Bonus Calculator
-Determines bonus amounts using performance or salary-based rules.
+Determines employee bonus amounts using predefined performance or salary criteria.
 
-### Withdrawal System
-Simulates bank withdrawal logic and validates transaction conditions.
+### Withdrawal System Simulation
+Simulates a banking withdrawal process and validates transaction conditions.
 
-### Password Verification
-Verifies user credentials or password inputs against expected values.
+### Password Verification Program
+Checks whether user-entered credentials meet verification requirements.
 
-### Hotel Management
-A simple hotel management task that tracks bookings, rooms, or guest details.
+### Hotel Management Application
+A simple hotel management system for handling guest information and room-related operations.
 
-## Notes
-- Most programs read input from the console and print results to standard output.
-- Rename compiled executables as needed for easier testing.
-- Use the `build/Debug` folder for temporary output if using VS Code debugging.
+
+## Author
+
+**Denis Maiyo**
+
+Bachelor of Science in Information Technology  
+Zetech University
+
+---
 
 ## License
+<<<<<<< HEAD
 This repository is intended for educational use and self-study.
+=======
+
+This repository is intended for educational purposes, academic practice, and personal learning.
+>>>>>>> 5585457 (completed week 6 task 1 and task 2)
