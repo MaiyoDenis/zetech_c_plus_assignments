@@ -1,68 +1,89 @@
-# C++ Programming Exercises
+# Zetech C++ Assignments
 
-## Question a) Library Fine Calculator
+## Overview
+This repository contains a series of standalone C++ assignment programs for learning basic programming concepts. Each file is a self-contained C++ exercise covering input/output, decision-making, arithmetic operations, and simple control structures.
 
-You are required to develop a C++ program to calculate the fine for overdue library books.
+## Repository Structure
+- `library_fine/` and `library_fine.cpp` — Library fine calculator
+- `scholarship/` and `scholarship.cpp` — Scholarship eligibility program
+- `week1_task1_mobile_phone_sales.cpp` — Mobile phone sales calculator
+- `week1_task2_driving_test.cpp` — Driving test assessment program
+- `week2_task1_grading_system.cpp` — Grading system evaluator
+- `week2_task2_admission_decision.cpp` — Admission decision logic
+- `week2_task3_calculator.cpp` — Basic calculator
+- `week3_task1_payroll.cpp` — Payroll calculator
+- `week3_task2_water_billing.cpp` — Water billing calculation
+- `week4_task1_employee_bonus.cpp` — Employee bonus calculator
+- `week4_task2_withdrawal_system.cpp` — Withdrawal system simulation
+- `week4_task3_password_verification.cpp` — Password verification program
+- `week5_hotel_management.cpp` — Simple hotel management application
+- `build/` — build outputs and compiled binaries
 
-The library charges fines based on the number of days a book is overdue. The fine rates are as follows:
+## How to Build and Run
+Each C++ program in this repository is standalone and can be compiled individually.
 
-| Days Overdue      | Charges per day |
-|-------------------|-----------------|
-| Up to 7 days      | Ksh. 20         |
-| 8 – 14 days       | Ksh. 50         |
-| 15 days or more   | Ksh. 100        |
+### Using GCC
+```bash
+cd /home/maiyo/zetech/zetech_c_plus_assignments
 
-### Requirements:
+g++ -std=c++17 -Wall -Wextra -o program_name source_file.cpp
+./program_name
+```
+Example:
+```bash
+g++ -std=c++17 -Wall -Wextra -o week1_task2_driving_test week1_task2_driving_test.cpp
+./week1_task2_driving_test
+```
 
-1. **Input (3 marks)**
-   - Write a C++ program that takes the following inputs from the user:
-     - Book ID (an integer)
-     - Due Date (an integer)
-     - Return Date (an integer)
+### Using VS Code
+- Open the file you want to run.
+- Use the provided task `C/C++: gcc build active file` to compile.
+- Run the generated executable from the terminal or via the debugger.
 
-2. **Calculation (2 marks)**
-   - Calculate the days overdue
-   - *Hint: `returnDate - dueDate`*
+## Assignment Summaries
+### Library Fine Calculator
+Calculates overdue fines for returned books based on the number of days late. It reads book ID, due date, and return date, then computes the fine according to tiered rates.
 
-3. **Fine Determination (6 marks)**
-   - Use an `if...else` statement to determine the fine rate as per the specified rates in the above table and apply the necessary calculations.
+### Scholarship Eligibility Program
+Evaluates a student’s scholarship eligibility using marks and attendance. The program uses nested conditionals to decide between full scholarship, partial scholarship, or no scholarship.
 
-4. **Output Display (4 marks)**
-   - The program should display the following:
-     - `bookID`
-     - `dueDate`
-     - `returnDate`
-     - `daysOverdue`
-     - `fineRate`
-     - `fineAmount`
+### Mobile Phone Sales
+A task that handles phone sales input, computes totals, and displays relevant sales details.
 
----
+### Driving Test Program
+Assesses driving test results based on criteria such as age, score, or other evaluation metrics.
 
-## Question b) Scholarship Eligibility Program
+### Grading System
+A grade evaluator that assigns letter grades or pass/fail decisions based on exam marks.
 
-A university awards scholarships based on a student's **marks** and **attendance rate**.
+### Admission Decision
+Determines admission status using academic performance and eligibility rules.
 
-Write a C++ program that:
+### Basic Calculator
+Performs arithmetic operations such as addition, subtraction, multiplication, and division.
 
-### 1. Input
-Prompts the user to enter:
-- Student name
-- Exam marks (0–100)
-- Attendance percentage (0–100)
+### Payroll Calculator
+Computes employee pay, including salary and deductions or allowances.
 
-### 2. Scholarship Eligibility Logic
-Uses **nested if statements** to determine scholarship eligibility:
+### Water Billing
+Calculates utility bills for water usage based on consumption.
 
-- **If marks are 70 or above:**
-  - If attendance is **80% or above** → Scholarship = **"Full Scholarship"**
-  - Otherwise → Scholarship = **"Partial Scholarship"**
+### Employee Bonus Calculator
+Determines bonus amounts using performance or salary-based rules.
 
-- **If marks are 50 to 69:**
-  - If attendance is **85% or above** → Scholarship = **"Partial Scholarship"**
-  - Otherwise → Scholarship = **"No Scholarship"**
+### Withdrawal System
+Simulates bank withdrawal logic and validates transaction conditions.
 
-- **If marks are below 50:**
-  - No Scholarship
+### Password Verification
+Verifies user credentials or password inputs against expected values.
 
-### 3. Output
-Display the **student name** and **scholarship status**.
+### Hotel Management
+A simple hotel management task that tracks bookings, rooms, or guest details.
+
+## Notes
+- Most programs read input from the console and print results to standard output.
+- Rename compiled executables as needed for easier testing.
+- Use the `build/Debug` folder for temporary output if using VS Code debugging.
+
+## License
+This repository is intended for educational use and self-study.
