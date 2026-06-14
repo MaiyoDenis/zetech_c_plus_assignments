@@ -24,7 +24,7 @@ The assignments in this repository demonstrate:
 
 ## Repository Structure
 
-<<<<<<< HEAD
+
 ## Assignment Summaries
 =======
 | File | Description |
@@ -100,9 +100,7 @@ Zetech University
 ---
 
 ## License
-<<<<<<< HEAD
 This repository is intended for educational use and self-study.
 =======
 
 This repository is intended for educational purposes, academic practice, and personal learning.
->>>>>>> 5585457 (completed week 6 task 1 and task 2)
