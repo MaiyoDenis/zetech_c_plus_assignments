@@ -20,13 +20,10 @@ The assignments in this repository demonstrate:
 - Problem-solving techniques
 - Program compilation and execution using GCC/G++
 
----
+
 
 ## Repository Structure
 
-
-## Assignment Summaries
-=======
 | File | Description |
 |--------|-------------|
 | `library_fine.cpp` | Library fine calculator |
@@ -42,14 +39,14 @@ The assignments in this repository demonstrate:
 | `week4_task2_withdrawal_system.cpp` | Bank withdrawal system simulation |
 | `week4_task3_password_verification.cpp` | Password verification program |
 | `week5_hotel_management.cpp` | Hotel management application |
-
+| `week6_Task1_library_book_management.cpp` | Library Book Management System |
+| `week6_task2_fee_management.cpp` |Student Fee Management System |
 ---
 
 
 
 ## Assignment Descriptions
 
->>>>>>> 5585457 (completed week 6 task 1 and task 2)
 ### Library Fine Calculator
 Calculates fines for overdue library books based on the number of days a book is returned late.
 
@@ -89,6 +86,12 @@ Checks whether user-entered credentials meet verification requirements.
 ### Hotel Management Application
 A simple hotel management system for handling guest information and room-related operations.
 
+##  Library Book Management (Classes and Objects)
+Manages library book records using object-oriented programming, tracking available copies and processing borrow requests through a structured class-based approach.
+
+
+## Student Fee Management  (Classes and Objects) 
+Automates student fee processing by storing admission details and fee balances, allowing payments to be recorded and outstanding balances to be tracked in real time.
 
 ## Author
 
@@ -100,7 +103,5 @@ Zetech University
 ---
 
 ## License
-This repository is intended for educational use and self-study.
-=======
 
 This repository is intended for educational purposes, academic practice, and personal learning.
