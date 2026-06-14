@@ -19,27 +19,6 @@ This repository contains a series of standalone C++ assignment programs for lear
 - `week5_hotel_management.cpp` — Simple hotel management application
 - `build/` — build outputs and compiled binaries
 
-## How to Build and Run
-Each C++ program in this repository is standalone and can be compiled individually.
-
-### Using GCC
-```bash
-cd /home/maiyo/zetech/zetech_c_plus_assignments
-
-g++ -std=c++17 -Wall -Wextra -o program_name source_file.cpp
-./program_name
-```
-Example:
-```bash
-g++ -std=c++17 -Wall -Wextra -o week1_task2_driving_test week1_task2_driving_test.cpp
-./week1_task2_driving_test
-```
-
-### Using VS Code
-- Open the file you want to run.
-- Use the provided task `C/C++: gcc build active file` to compile.
-- Run the generated executable from the terminal or via the debugger.
-
 ## Assignment Summaries
 ### Library Fine Calculator
 Calculates overdue fines for returned books based on the number of days late. It reads book ID, due date, and return date, then computes the fine according to tiered rates.
