@@ -41,6 +41,8 @@ The assignments in this repository demonstrate:
 | `week5_hotel_management.cpp` | Hotel management application |
 | `week6_Task1_library_book_management.cpp` | Library Book Management System |
 | `week6_task2_fee_management.cpp` |Student Fee Management System |
+| `week8_task1_bank_account.cpp` | Bank Account System |
+| `week8_task2_hotel_booking.cpp` | Hotel Room Booking System |
 ---
 
 
@@ -92,6 +94,12 @@ Manages library book records using object-oriented programming, tracking availab
 
 ## Student Fee Management  (Classes and Objects) 
 Automates student fee processing by storing admission details and fee balances, allowing payments to be recorded and outstanding balances to be tracked in real time.
+
+## Bank Account System (Constructors and Destructors)
+Manages customer accounts by automatically initializing account details upon creation and displaying a cleanup message when the account is closed.
+
+## Hotel Room Booking System (Constructors and Destructors)
+Manages room bookings by initializing booking details when a room is booked and releasing the room with a message when the booking ends.
 
 ## Author
 
